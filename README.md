@@ -1,38 +1,42 @@
-# base-app-generator
+# Bare-Bones Web Application
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application setup with basic HTML structure, simple CSS for styling, and basic JavaScript setup.
 
-## Collaborate with GPT Engineer
+## Features
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+1. Basic HTML structure.
+2. Simple CSS for styling.
+3. Basic JavaScript setup.
 
-Changes made via gptengineer.app will be committed to this repo.
+## Instructions
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+### Running the Application
 
-## Tech stack
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-This project is built with React with shadcn-ui and Tailwind CSS.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- Vite
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Run the application:
+   ```bash
+   npm run dev
+   ```
 
-## Setup
+4. Open your browser and navigate to `http://localhost:3000` to see the application.
 
-```sh
-git clone https://github.com/GPT-Engineer-App-Dev/base-app-generator.git
-cd base-app-generator
-npm i
-```
+### Modifying the Application
 
-```sh
-npm run dev
-```
+- The main entry point of the application is `src/pages/Index.jsx`.
+- You can modify the HTML structure and content in the `Index.jsx` file.
+- The CSS for styling is located in `src/index.css`.
+- You can add additional JavaScript functionality in the `Index.jsx` file or create new components as needed.
 
-This will run a dev server with auto reloading and an instant preview.
+## License
 
-## Requirements
-
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This project is licensed under the MIT License.
